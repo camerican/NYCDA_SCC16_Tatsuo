@@ -1,0 +1,39 @@
+body {
+	background-color: #D4D2D3;
+}
+
+h3 {
+	text-align: center;
+}
+
+/*#warpper {
+	border-color: white;
+	background-color: black;
+	width: 100px;
+	height: 100px;
+}*/
+
+.pic {
+	float: left;
+}
+
+.pic.one {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+.pic.two {
+	margin-right: 10px;
+}
+
+.pic.four {
+	margin-left: 20px;
+}
+
+.pic.five {
+	margin-left: 10px;
+}
+
+.pic.six {
+	margin-left: 10px;
+}

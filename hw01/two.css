@@ -1,0 +1,44 @@
+
+
+#wrapper {
+
+	width: 400px;
+	margin: 0 auto;
+	
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+
+}
+
+.box.blue {
+	background-color: #0B0C47;
+	margin-top: 50px;
+	
+}
+
+.box.blue p {
+	text-align: center;
+	color: white;
+}
+
+.box.yellow {
+	background-color: #DEBD76;
+	float: right;
+}
+
+.box.yellow h4 {
+	color: white;
+}
+
+.box.red {
+	background-color: #370712;
+	clear: both;
+}
+
+.box.red h1 {
+	color: white;
+}
+

@@ -1,0 +1,65 @@
+#boxContainer {
+	margin: 0 auto;
+	width: 410px;
+}
+
+.box {
+	text-align: center;	
+	float: left;
+
+}
+
+.box.twitter {
+	width: 200px;
+	height: 500px;
+	margin-right: 10px;
+	background-color: #1DA1F2;
+	
+
+}
+
+.box.facebook {
+	width: 200px;
+	height: 500px;
+	background-color: #3B5998;
+}
+
+.box.facebook h3 {
+	color: white;
+}
+
+#mediabar {
+	width: 255px;
+	height: 500px;
+	background-color: black;
+	position: absolute;
+	
+}
+
+.icon {
+	float: left;
+}
+
+
+.icon.twitter {
+	width: 255px;
+	height: 250px;
+	background-color: #1DA1F2;
+	position: relative;
+	
+}
+
+.icon.twitter img {
+	position: relative;
+	margin-left: 13px;
+	margin-top: 13px;
+}
+
+.icon.facebook {
+	width: 255px;
+	height: 250px;
+	background-color: #3D5A98;
+	
+	
+
+}
