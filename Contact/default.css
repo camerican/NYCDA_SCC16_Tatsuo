@@ -79,5 +79,12 @@ h1, h4 {
     width:30%;
 }
 
+#socialmedia img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+
 
 
