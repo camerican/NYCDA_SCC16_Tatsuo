@@ -38,15 +38,23 @@ $(document).ready(function(){
 
   },100);
 
-  setInterval(function() {
-    var dateTime = new Date();
-    var minutes = dateTime.getMinutes();
+  var CurrentDateTime = new Date();
+  var CurrentHour = CurrentDateTime.getHours();
+  var nextHour;
 
-    if (minutes === 7)
+  setInterval(function() {
+    var nextDateTime = new Date();
+    var nextHour = nextDateTime.getHours();
+
+    if(nextHour === currentHour) {
+
+    } else {
       $("body").css("backgroundColor", getRandomColor());
 
+      CurrentHour = nextHour;
+    }
 
-  }, 100);
+  }, 60*1000);
 
  $(".fa-twitter-square").click(function() {
   window.open('http://twitter.com', '_blank');
