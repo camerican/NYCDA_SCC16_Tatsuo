@@ -8,7 +8,7 @@ $(document).ready(function(){
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
-	}
+  }
   
   var colorArray = ["red", "black", "white", "purple", "pink", "yellow"];
 
@@ -23,16 +23,44 @@ $(document).ready(function(){
     $("#hours").text(dateTime.getHours());
 
     var minutes = dateTime.getMinutes();
+    var hours = dateTime.getHours();
 
-  	if(minutes%2 === 0){
-  		$("body").css("backgroundColor", "red");
-  	 } else if(minutes%5 === 0) {
-  	 	$("body").css("backgroundColor", getRandomColor());
-  	 }else {
-  	 	 $("body").css("backgroundColor", "black");
+    if(minutes%2 === 0){
+      $("body").css("backgroundColor", "pink");
+     } else if(minutes%5 === 0) {
+      $("body").css("backgroundColor", getRandomColor());
+     } else if(minutes === 8) {
+      $("body").css("backgroundColor", getRandomColor());
+     }
+     else {
+       $("body").css("backgroundColor", "yellow");
     }
 
   },100);
 
+  setInterval(function() {
+    var dateTime = new Date();
+    var minutes = dateTime.getMinutes();
+
+    if (minutes === 7)
+      $("body").css("backgroundColor", getRandomColor());
+
+
+  }, 100);
+
+ $(".fa-twitter-square").click(function() {
+  window.open('http://twitter.com', '_blank');
+  });
+
+ $(".fa-facebook-square").click(function() {
+  window.open('https://facebook.com', '_blank');
+  });
+
+ $(".fa-snapchat-square").click(function() {
+  window.open('https://snapchat.com', '_blank');
+  });
+
+
 
 });
+
