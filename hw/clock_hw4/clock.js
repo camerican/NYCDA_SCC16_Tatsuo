@@ -29,10 +29,7 @@ $(document).ready(function(){
       $("body").css("backgroundColor", "pink");
      } else if(minutes%5 === 0) {
       $("body").css("backgroundColor", getRandomColor());
-     } else if(minutes === 8) {
-      $("body").css("backgroundColor", getRandomColor());
-     }
-     else {
+     } else {
        $("body").css("backgroundColor", "yellow");
     }
 
