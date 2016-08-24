@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Chess</title>
+	<link rel="stylesheet" href="default.css">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="application.js" type="text/javascript" charset="utf-8" async defer></script>
+	
+	</head>
+<body>
+
+	<nav class="navbar navbar-default-custome">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand-custome" href="#">
+	        <img alt="Brand" src="chess-logo.png" width="60px">
+	      </a>
+	    </div>
+	  </div>
+	</nav>
+	
+	<div id="background">
+		<div id="content-wrapper">
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="content-left">
+					
+						<h1>Simple As</h1> 
+						<h1><span class="black">Black</span> and White</h1>
+
+						<p>Play continues alternately. First <span class="black">black</span>, then white. If at any time a player does not have a legal move i.e. there is nowhere he can play that flips one of his opponent's discs, he must pass and his opponent plays again. It is possible to pass several times in succession. When neither player has a legal move (usually when the board is full but not always) the game ends. The winner is the player with the most pieces of his colour showing.</p>
+					</div>
+				</div>
+
+			  <div class="col-md-6">
+				  <div class="content-right">
+					  <iframe class="hp_iframe" height="380px" width="375px" src="chessboardjs-0.3.0/chess-source.html"></iframe>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+
+
+</body>
+</html>
